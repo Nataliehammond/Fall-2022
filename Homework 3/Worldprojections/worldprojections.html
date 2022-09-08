@@ -8,7 +8,7 @@
 <body>
     <h1>In this project I learned how to display images in different projections</h1>
     
-    <h2 style="color:red">Describe in your own words how you displayed the map in different projections using QGIS</h2>
+    <h2 style="color:red">Displaying the projections in QGIS</h2>
     <p>You can write a paragraph here</p>
     
     <h2>Pseudo Mercator 4326 Projection</h2>
@@ -36,34 +36,34 @@
     <img src="./maps/winkel.53018.png" alt= "Winkel" width='500px'>
     </a>    
 
-    <h2>54034 Projection</h2>
-    <h3> info </h3>
-    <a href="./">
-    <img src="./" alt="54034" width='500px'>
+    <h2>Equal Area Cylindrical</h2>
+    <h3> Based on meters, this projection is based on a cylinder. This projection works well for large-scale mapping use. It is good for navigation and direction, but distance may be warped. </h3>
+    <a href="./maps/cylinder.54034.png">
+    <img src="./maps/cylinder.54034.png" alt="Equal Area Cylinder" width='500px'>
     </a>
 
-    <h2>54027 Projection</h2>
-    <h3> info </h3>
-    <a href="./">
-    <img src="./" alt="54027" width='500px'>
+    <h2>World Equidistant Conic</h2>
+    <h3> With a conic basis, the directions shapes of this map are distorted. Distance is more well preserved than other features.</h3>
+    <a href="./maps/cylinder.54034.png">
+    <img src="./maps/cylinder.54034.png" alt="Equidistant conic" width='500px'>
     </a>
 
-    <h2>102016 Projection</h2>
-    <h3> info </h3>
-    <a href="./">
-    <img src="./" alt="102016" width='500px'>
+    <h2>North Pole Equidistant</h2>
+    <h3> This projection is azimuthal. It preserves distance and presents a perspective as if the viewer is looking down on Earth's globe. The shapes are harder to distinguish and would not be used for navigational use. The meridians are straight and cross through the North Pole.</h3>
+    <a href="./maps/northpole.102016.png">
+    <img src="./maps/northpole.102016.png" alt="North Pole" width='500px'>
     </a>
 
-    <h2>choice one me Projection</h2>
-    <h3> info </h3>
-    <a href="./">
-    <img src="./" alt="me" width='500px'>
+    <h2>Two Point Equidistant</h2>
+    <h3> This projection is spherical and equidistant, so it preserves distance well on the map. The shapes of continents warp more as you reach the far edges of the globe. This would be most useful for long range mapping use. Two loci points are used with an accurate distance between the two to base the map on. </h3>
+    <a href="./maps/twopoint.53031.png">
+    <img src="./maps/twopoint.53031.png" alt="Two Point" width='500px'>
     </a>
 
-    <h2>choice two me Projection</h2>
-    <h3> info </h3>
-    <a href="./">
-    <img src="./" alt="me" width='500px'>
+    <h2>Van Der Grinten/h2>
+    <h3> This is a spherical projection. It warps the poles very heavily, but not the continents near the equator as intensely. The world is portrayed with a curved look while still laying the Earth on a horizontal axis. </h3>
+    <a href="./maps/vangrinten.53029.png">
+    <img src="./maps/vangrinten.53029.png" alt="Van Grinten" width='500px'>
     </a>
 
     <h2 style="color:red">Now, you should <u>add the following projections on your own:</u></h2>
